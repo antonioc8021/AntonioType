@@ -1,0 +1,18 @@
+* {
+    color-scheme: light dark;
+    --green--green: #00b755;
+    --yellow: #daaf38;
+    --red: #ca4754;
+    --black: #222;
+    --gray: #999;
+}
+
+body {
+    background-color: var(--black);
+    font-family: Menlo, monospace;
+    display: grid;
+    padding: 32px;
+    justify-content: center;
+    margin-top: 32px;
+
+}
