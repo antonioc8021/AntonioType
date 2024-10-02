@@ -12,10 +12,16 @@ let words = [];
 let currentTime = INITIAL_TIME;
 
 // puesta en marcha de las funciones
-initGame();
 initEvents();
+initGame();
 
 // declaración de las funciones
-function initGame() { }
+// todo: mirar por que no funciona el tiempo, el html no coge el tiempo que se le pasa por el js
+function initGame() {
+    words = TEXT.split(' ').slice(0, 32);
+    currentTime = INITIAL_TIME;
+    $time.textContent = currentTime;
+}
+
 function initEvents() { }
 
